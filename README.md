@@ -7,16 +7,24 @@
 ### Windows
 
 1. 安装 [Texlive](http://mirror.lzu.edu.cn/CTAN/systems/texlive/Images/texlive.iso)，安装的位置是在
-```C:\texlive```
+```
+C:\texlive
+```
 然后把下面这个路径加到 PATH 当中
-```C:\texlive\2015\bin\win32;```
+```
+C:\texlive\2015\bin\win32;
+```
 这时候你在终端输入 `tlmgr --version` 应该会有输出。
 这样 Texlive 这边就算配置完成了。
 
 2. 安装 [SumatraPDF](http://www.sumatrapdfreader.org/download-free-pdf-viewer-cn.html) , 安装位置是在
-```C:\Program Files\SumatraPDF```
+```
+C:\Program Files\SumatraPDF
+```
 然后把下面这个路径加到 PATH 当中
-```C:\Program Files\SumatraPDF;```
+```
+C:\Program Files\SumatraPDF;
+```
 
 3. 安装 [Sublime](https://www.sublimetext.com/)，[Package Control](https://packagecontrol.io/installation)，还有 [LaTeXTools](https://github.com/SublimeText/LaTeXTools)。
 4. 配置LaTexTools，打开 `Preferences | Package Settings | LaTeXTools | Settings - User`，然后定位到`Platform settings`这一节，改成下面像这样
@@ -42,7 +50,9 @@
 
 我们在编译 LaTeX 文件时，经常需要用到反向搜索，也即从 PDF 的内容跳到代码的内容， SumatraPDF 是 LaTeXTools 默认使用的预览工具。
 在 SumatraPDF 上方的菜单栏选择 `设置 | 选项`，将下面的代码添加到 SumatraPDF 选项的最下面方的反向搜索设置框内即可。
-`"C:\Program Files\Sublime Text 2\sublime_text.exe" "%f:%l"`
+```
+"C:\Program Files\Sublime Text 2\sublime_text.exe" "%f:%l"
+```
 
 ##### 详情参见 [Sublime Text 搭建 LaTeX 编写环境](http://www.latexstudio.net/archives/1169) 
 
