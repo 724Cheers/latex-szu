@@ -7,19 +7,19 @@
 ### Windows
 
 1. 安装 [Texlive](http://mirror.lzu.edu.cn/CTAN/systems/texlive/Images/texlive.iso)，安装的位置是在
-`C:\texlive`
+```C:\texlive```
 然后把下面这个路径加到 PATH 当中
-`C:\texlive\2015\bin\win32;`
+```C:\texlive\2015\bin\win32;```
 这时候你在终端输入 `tlmgr --version` 应该会有输出。
 这样 Texlive 这边就算配置完成了。
 
 2. 安装 [SumatraPDF](http://www.sumatrapdfreader.org/download-free-pdf-viewer-cn.html) , 安装位置是在
-`C:\Program Files\SumatraPDF`
+```C:\Program Files\SumatraPDF```
 然后把下面这个路径加到 PATH 当中
-`C:\Program Files\SumatraPDF;`
+```C:\Program Files\SumatraPDF;```
 
 3. 安装 [Sublime](https://www.sublimetext.com/)，[Package Control](https://packagecontrol.io/installation)，还有 [LaTeXTools](https://github.com/SublimeText/LaTeXTools)。
-然后配置一下 LaTexTools，打开 `Preferences | Package Settings | LaTeXTools | Settings - User`，然后定位到 `Platform settings` 这一节，改成下面像这样
+4. 配置LaTexTools，打开 `Preferences | Package Settings | LaTeXTools | Settings - User`，然后定位到`Platform settings`这一节，改成下面像这样
 
 ```
 // ------------------------------------------------------------------
